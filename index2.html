@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Welcome
+    </title>
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/dark.css">
+</head>
+
+<body>
+    <!--Menu side from left-->
+<div id="mySidenav" class="sidenav-dark" id="app">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index2.html" class="font">Home</a>
+  <a href="message2.html" class="font">Messages</a>
+  <a href="file2.html" class="font">Files</a>
+  <a href="graph2.html" class="font">Analytics</a>
+    <a href="index.html" class="font">Light theme</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="font">&#9776; Menu</span>
+<div id="main" class="font">
+  <h2>Home</h2>
+    <a href="message.html"><img src="img/mail-dark.png" id="mail"></a>
+    <a href="file.html"><img src="img/file-dark.png" id="mail"></a>
+    <a href="graph.html"><img src="img/graph-dark.png" id="mail"></a>
+    <div id="app-2">
+        <span v-bind:title="messages">
+            <p class="num">2</p>
+            <p class="num">3</p>
+            <p class="num">1</p>
+        </span>
+    </div>
+    <p id="title">Messages</p>
+    <p id="title">Files</p>
+    <p id="title">Analytics</p>    
+</div>
+    <script src="java/canvasmain.js"></script>
+    <script src="java/vuemain.js"></script>
+</body>
+</html>
