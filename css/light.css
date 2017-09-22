@@ -1,0 +1,21 @@
+@import url(skeleton.css);
+body {
+  background-color: #d8d8d8; }
+
+.expand {
+  color: #ffa500; }
+
+.sidenav {
+  background-color: #111; }
+
+a {
+  color: #818181; }
+
+a:hover {
+  color: #f1f1f1; }
+
+.slider {
+  background-color: #d8d8d8; }
+
+input:checked + .slider {
+  background-color: #818181; }
