@@ -114,8 +114,8 @@ body {
 
 .sidebuttons {
   border-radius: 25px;
-  border-color: #87b2d6;
-  background-color: #87b2d6;
+  border-color: #d6878a;
+  background-color: #d6878a;
   padding: 5px;
   width: 25px;
   -webkit-transition: 0.7s;
@@ -142,8 +142,8 @@ body {
 
 #swapbtn {
   border-radius: 25px;
-  border-color: #87b2d6;
-  background-color: #87b2d6;
+  border-color: #d6878a;
+  background-color: #d6878a;
   padding: 5px;
   width: 150px;
   position: relative;
