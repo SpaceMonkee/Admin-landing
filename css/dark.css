@@ -1,0 +1,160 @@
+/*main and side-nav*/
+/*buttons*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* font style */
+@font-face {
+  font-family: Prey;
+  src: url("../scss/agency-fb/AGENCYR.TTF"); }
+
+/* main body and side-nav */
+body {
+  background-color: #ac87d6; }
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #87b1d6;
+  overflow-x: hidden;
+  padding-top: 20px; }
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block; }
+
+.sidenav a:hover {
+  color: #818181; }
+
+.main {
+  margin-left: 200px;
+  /* Same as the width of the sidenav */ }
+
+.button {
+  width: 170px;
+  padding: 10px;
+  height: auto;
+  display: inline-block;
+  border-radius: 25px;
+  background-color: #d6878a;
+  margin: 0.8% 12% 2% 12%;
+  left: 10%;
+  position: relative;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s; }
+
+.button:hover {
+  opacity: 0.7;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+  background-color: #d6ac87; }
+
+.icon {
+  width: 170px;
+  height: auto; }
+
+#user {
+  width: 200px; }
+
+#user-icon {
+  width: 150px; }
+
+.sidebuttons {
+  border-radius: 25px;
+  border-color: #d6878a;
+  background-color: #d6878a;
+  padding: 5px;
+  width: 25px;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s; }
+
+.sidebuttons:hover {
+  background-color: #d6ac87;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s; }
+
+#sign-in {
+  width: 150px;
+  right: 50px;
+  font-family: Prey; }
+
+#chartContainerLive {
+  height: 350px;
+  width: 85%;
+  z-index: 1;
+  position: relative;
+  left: 200px; }
+
+#swapbtn {
+  border-radius: 25px;
+  border-color: #d6878a;
+  background-color: #d6878a;
+  padding: 5px;
+  width: 150px;
+  position: relative;
+  top: 150px;
+  font-family: Prey;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s; }
+
+#swapbtn:hover {
+  background-color: #d6ac87;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s; }
